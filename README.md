@@ -39,12 +39,12 @@ You'll get better and better with experience.
 ### Assembly
 
 * [8086 assembly programming with emu8086](https://github.com/gurugio/book_assembly_8086)
- * basic concepts of CPU and computer architecture
- * basic concepts of C programming language
+  * basic concepts of CPU and computer architecture
+  * basic concepts of C programming language
 * [64bit assembly programming(translation in progress)](https://github.com/gurugio/book_assembly_64bit)
- * basic concepts of modern CPU and computer architecture
- * basic concepts of disassembling and debugging of C code
- * _need help for translation_
+  * basic concepts of modern CPU and computer architecture
+  * basic concepts of disassembling and debugging of C code
+  * _need help for translation_
 
 ### C language
 
@@ -60,6 +60,7 @@ There is no short-cut. Just read the entire book and solve all the exercises.
 * [C programming challenge?](https://github.com/gurugio/lowlevelprogramming-university/blob/master/c-language-challenge.md)
   * plan for service like [The Eudyptula Challenge](http://eudyptula-challenge.org/)
   * Just an idea at the moment..
+  * If you can make all tiny projects in that page, you would be good to start big projects.
 
 ## Applications
 
@@ -159,3 +160,11 @@ I do not know the future, but I keep my eye on RUST.
 
 If I could have one week free and alone, I would learn RUST.
 That is because RUST is the latest language with which I can develop Linux device driver.
+
+IoT is new trend, so it's worth to check what OSs are for IoT.
+ARM, Samsung and some companies has their own realtime OS but sadly many of them are close source.
+But Linux Foundation also has a solution: Zephyr
+* https://www.zephyrproject.org/
+
+Typical cloud server has so many layers, for instance, host OS, kvm driver, qemu process, guest OS and service application. So container has been developed to provide light virtualization. In near future, a new concept of OS, so-called library OS or Unikernel, would be replace the typical stack of SW for virtualization.
+* http://unikernel.org/
